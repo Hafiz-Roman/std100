@@ -79,7 +79,16 @@
     "vet_approved_yK84dN": {
       "type": "vet-approved",
       "name": "Vet Approved",
-      "settings": {}
+      "settings": {
+        "main_image": "shopify://shop_images/pexels-mikhail-nilov-7469222_1.jpg",
+        "badge_image": "shopify://shop_images/DALL_E_2024-01-22_12.02.58_-_Design_a_badge_with_a_professional_and_trustworthy_look_intended_for_approval_by_veterinarians._The_badge_should_feature_a_paw_print_and_a_stethoscop-2.png",
+        "badge_position": "top_left",
+        "doctor_name": "Dr. Ernie Sanderson",
+        "headline": "Veterinarian-Approved",
+        "body_text": "All products from Dr. Ernie's are vetted and approved by a qualified veterinarian, ensuring top-quality care for your pet.",
+        "button_text": "View Products",
+        "button_url": "shopify://products/the-3p-fulfilled-snowboard"
+      }
     }
   },
   "order": [
