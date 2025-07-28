@@ -1,67 +1,3 @@
-{% schema %}
-{
-  "name": "Vet Approved",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "main_image",
-      "label": "Main Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "badge_image",
-      "label": "Badge Image"
-    },
-    {
-      "type": "select",
-      "id": "badge_position",
-      "label": "Badge Position",
-      "default": "top_left",
-      "options": [
-        { "label": "Top Left", "value": "top_left" },
-        { "label": "Top Right", "value": "top_right" },
-        { "label": "Bottom Left", "value": "bottom_left" },
-        { "label": "Bottom Right", "value": "bottom_right" }
-      ]
-    },
-    {
-      "type": "text",
-      "id": "doctor_name",
-      "label": "Doctor Name",
-      "default": "Dr. Ernie Sanderson"
-    },
-    {
-      "type": "text",
-      "id": "headline",
-      "label": "Headline",
-      "default": "Veterinarian-Approved"
-    },
-    {
-      "type": "textarea",
-      "id": "body_text",
-      "label": "Body Text",
-      "default": "All products from Dr. Ernie's are vetted and approved by a qualified veterinarian, ensuring top-quality care for your pet."
-    },
-    {
-      "type": "text",
-      "id": "button_text",
-      "label": "Button Text",
-      "default": "View Products"
-    },
-    {
-      "type": "url",
-      "id": "button_url",
-      "label": "Button URL"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Vet Approved"
-    }
-  ]
-}
-{% endschema %}
-
 <div class="vet-approved-section">
   <div class="vet-approved-image">
     {% if section.settings.main_image %}
@@ -181,3 +117,67 @@
   }
 }
 </style>
+
+{% schema %}
+{
+  "name": "Vet Approved",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "badge_image",
+      "label": "Badge Image"
+    },
+    {
+      "type": "select",
+      "id": "badge_position",
+      "label": "Badge Position",
+      "default": "top_left",
+      "options": [
+        { "label": "Top Left", "value": "top_left" },
+        { "label": "Top Right", "value": "top_right" },
+        { "label": "Bottom Left", "value": "bottom_left" },
+        { "label": "Bottom Right", "value": "bottom_right" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "doctor_name",
+      "label": "Doctor Name",
+      "default": "Dr. Ernie Sanderson"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Veterinarian-Approved"
+    },
+    {
+      "type": "textarea",
+      "id": "body_text",
+      "label": "Body Text",
+      "default": "All products from Dr. Ernie's are vetted and approved by a qualified veterinarian, ensuring top-quality care for your pet."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "View Products"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vet Approved"
+    }
+  ]
+}
+{% endschema %}
