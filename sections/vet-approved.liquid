@@ -1,6 +1,29 @@
+<div class="vet-approved-section">
+  <h2>{{ section.settings.heading }}</h2>
+  <p>{{ section.settings.description }}</p>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Vet Approved",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Vet Approved Products"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "These products have been reviewed and approved by certified veterinarians."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vet Approved"
+    }
+  ]
+}
 {% endschema %}
