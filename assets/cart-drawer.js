@@ -21,7 +21,7 @@ class CartDrawer extends HTMLElement {
       if (event.code.toUpperCase() === 'SPACE') {
         event.preventDefault();
         this.open(cartLink);
-        console.log('Cart icon clicked');
+      
       }
     });
   }
