@@ -95,7 +95,7 @@
     "collapsible_content_7gcX4d": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_jCTDig": {
+        "collapsible_row_4ebN8U": {
           "type": "collapsible_row",
           "repeater": "{{ product.metafields.custom.faq.value }}",
           "settings": {
@@ -105,7 +105,7 @@
         }
       },
       "block_order": [
-        "collapsible_row_jCTDig"
+        "collapsible_row_4ebN8U"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
