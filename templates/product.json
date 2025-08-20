@@ -58,27 +58,9 @@
         "collapsible_tab_CxRMYe": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "efef",
             "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_k3Kk7E": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_EaK743": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "content": "{{ block.settings.page.content }}",
             "page": ""
           }
         }
@@ -92,9 +74,7 @@
         "buy_buttons",
         "description",
         "share",
-        "collapsible_tab_CxRMYe",
-        "collapsible_tab_k3Kk7E",
-        "collapsible_tab_EaK743"
+        "collapsible_tab_CxRMYe"
       ],
       "settings": {
         "enable_sticky_info": true,
