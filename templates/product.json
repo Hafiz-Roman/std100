@@ -54,6 +54,33 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "collapsible_tab_CxRMYe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_k3Kk7E": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_EaK743": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -64,7 +91,10 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "collapsible_tab_CxRMYe",
+        "collapsible_tab_k3Kk7E",
+        "collapsible_tab_EaK743"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -99,10 +129,43 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_7gcX4d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_jCTDig": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_jCTDig"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "collapsible_content_7gcX4d"
   ]
 }
